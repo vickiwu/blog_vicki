@@ -101,5 +101,5 @@ deploy:
   type: git
   repo: https://github.com/vickiwu/blog_vicki.git
   branch: master
-  message: 初始化
+  message: 初始化l
 
