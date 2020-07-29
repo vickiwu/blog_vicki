@@ -8,12 +8,12 @@ subtitle: ''
 description: 'vickiWu的博客，记录前端学习笔记，生活点滴'
 keywords:
 author: wu wenyu
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.io/blog_vicki
+url: https://vickiwu.github.io/blog_vicki/
 root: /blog_vicki/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -101,5 +101,5 @@ deploy:
   type: git
   repo: https://github.com/vickiwu/blog_vicki.git
   branch: master
-  message: 初始化l
+  message: 初始化
 

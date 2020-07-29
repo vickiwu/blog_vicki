@@ -163,9 +163,9 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
@@ -177,9 +177,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  GitHub: https://github.com/vickiwu || fab fa-github
+  E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -190,7 +190,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Blog rolls
@@ -257,29 +257,29 @@ symbols_count_time:
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
 
-# Reward (Donate)
+# Reward (Donate) 打赏
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
   #comment: Donate comment here.
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: /images/wechatpay.png
+  alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
-# Subscribe through Telegram Channel, Twitter, etc.
+# Subscribe through Telegram Channel, Twitter, etc. 关注其他频道，公众号等
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
-# Related popular posts
+# Related popular posts 相关热门帖子推荐
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
   enable: false
@@ -292,7 +292,7 @@ related_posts:
     #isImage: false
     #isExcerpt: false
 
-# Post edit
+# Post edit 发布编辑
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
@@ -309,7 +309,7 @@ post_navigation: left
 # See: https://theme-next.org/docs/theme-settings/custom-pages
 # ---------------------------------------------------------------
 
-# TagCloud settings for tags page.
+# TagCloud settings for tags page. 标签页面的TagCloud设置。
 tagcloud:
   # All values below are same as default, change them by yourself.
   min: 12 # Minimun font size in px
@@ -319,7 +319,7 @@ tagcloud:
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 # Google Calendar
-# Share your recent schedule to others via calendar page.
+# Share your recent schedule to others via calendar page. 通过日历页面与他人共享您最近的日程安排
 calendar:
   calendar_id: <required> # Your Google account E-Mail
   api_key: <required>
@@ -354,10 +354,10 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
@@ -366,9 +366,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -389,8 +389,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/vickiwu
   title: Follow me on GitHub
 
 
@@ -478,7 +478,7 @@ yandex_site_verification:
 baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: ture
 
 
 # ---------------------------------------------------------------
